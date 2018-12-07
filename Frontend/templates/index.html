@@ -25,30 +25,30 @@
     <h4>
     <div class="container">
         <div class = "row">
+            <form method="POST">
             <div class = "col md-12">
                 <div class="form-group">
                     <button class="btn btn-success" type="button" data-toggle="modal" data-target="#addProductModal">
                         <span>Add Product</span>
                     </button>
-                    <button class="btn btn-warning" data-toggle="modal" data-id="<%= products[i].id %>" data-target="#updateProductModal">
+                    <button class="btn btn-warning" type="button" data-toggle="modal" data-target="#updateProductModal">
                         <span>Update Product</span>
                     </button>
-                    <button class="btn btn-danger" data-toggle="modal" data-target="#deleteProductModal">
+                    <button class="btn btn-danger" type="button" data-toggle="modal" data-target="#deleteProductModal">
                         <span>Delete Product</span>
                     </button>
-                    <form action = {{url_for('searchall')}} method = "POST">
-                        <button  class=" btn btn-info">
+
+                        <button  class=" btn btn-info" formaction="{{url_for('searchall')}}">
                             <span>View All Product</span>
                         </button>
-                    </form>
-                    <form action = "{{url_for('search')}}" method = "POST">
-                    <button class="btn btn-info">
+
+                    <button class="btn btn-info" formaction = "{{url_for('search')}}">
                         <span>Search Product by Name</span>
                     </button>
                     <input class = "form-group" type="text" placeholder="Search Product by Name" name="searchprod" size="30">
-                    </form>
                 </div>
             </div>
+             </form>
         </div>
     </div>
 
