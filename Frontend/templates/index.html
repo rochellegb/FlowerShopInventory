@@ -17,11 +17,23 @@
       </div>
     </nav>
     <div class = "container">
-        <div class="col md-8">
         <h2>Welcome!</h2>
+    </div>
+    <div class = "container">
+        <div class = "row">
+            {% with messages = get_flashed_messages()%}
+                {% if messages%}
+                    {% for message in messages %}
+                        <div class="alert alert-info alert-dismissible">
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                            <strong>{{message}}</strong>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+            {% block body %}{% endblock %}
         </div>
     </div>
-
     <h4>
     <div class="container">
         <div class = "row">
