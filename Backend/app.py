@@ -30,7 +30,7 @@ def log():
             else:
 
                 if request.method == 'POST':
-                        mydb = pymysql.connect(user='root', password='buds', host='localhost', database='inventorysystemdb')
+                        mydb = pymysql.connect(user='root', password='root', host='localhost', database='inventorysystemdb')
                         mycursor = mydb.cursor()
 
                         if 'username' in session:
@@ -84,7 +84,7 @@ def insert():
             else:
 
                if request.method == 'POST':
-                    mydb = pymysql.connect(user='root', password='buds', host='localhost', database="inventorysystemdb")
+                    mydb = pymysql.connect(user='root', password='root', host='localhost', database="inventorysystemdb")
                     mycursor = mydb.cursor()
                     if request.method == 'POST':
                          mycursor.execute("SELECT COUNT(1) FROM flowerinventory WHERE product_name = %s;", [prodname])
@@ -109,7 +109,7 @@ def insert():
 def searchall():
     try:
         if request.method == 'POST':
-            mydb = pymysql.connect(user='root', password='buds', host='localhost', database='inventorysystemdb')
+            mydb = pymysql.connect(user='root', password='root', host='localhost', database='inventorysystemdb')
             mycursor = mydb.cursor()
             mycursor.execute("SELECT * FROM flowerinventory")
             data = mycursor.fetchall()
@@ -129,7 +129,7 @@ def search():
             return render_template('index.html')
         else:
             if request.method == 'POST':
-                mydb = pymysql.connect(user='root', password='buds', host='localhost', database='inventorysystemdb')
+                mydb = pymysql.connect(user='root', password='root', host='localhost', database='inventorysystemdb')
                 mycursor = mydb.cursor()
                 if request.method == 'POST':
                     mycursor.execute("SELECT COUNT(1) FROM flowerinventory WHERE product_name = %s;", [prodname])
@@ -160,7 +160,7 @@ def delete():
             return render_template('index.html')
         else:
             if request.method == 'POST':
-                mydb = pymysql.connect(user='root', password='buds', host='localhost', database='inventorysystemdb')
+                mydb = pymysql.connect(user='root', password='root', host='localhost', database='inventorysystemdb')
                 mycursor = mydb.cursor()
                 if request.method == 'POST':
                     mycursor.execute("SELECT COUNT(1) FROM flowerinventory WHERE product_name = %s;", [namee])
@@ -193,7 +193,7 @@ def update():
             return render_template('index.html')
        else:
            if request.method == 'POST':
-               mydb = pymysql.connect(user='root', password='buds', host='localhost', database='inventorysystemdb')
+               mydb = pymysql.connect(user='root', password='root', host='localhost', database='inventorysystemdb')
                mycursor = mydb.cursor()
                if request.method == 'POST':
                    mycursor.execute("SELECT COUNT(1) FROM flowerinventory WHERE product_name = %s;", [name_prod])
