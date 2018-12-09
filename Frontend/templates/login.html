@@ -9,16 +9,16 @@
     <title>Login</title>
 
     <link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
-    <link href="../static/css/login.css" rel="stylesheet">
+
     <link href="../static/css/login2.css" rel="stylesheet">
 
   </head>
 
-  <body class="text-center">
+  <body class="text-center" background="../static/css/vine.png">
 
     <form class="form-signin" action="{{url_for('log')}}" method="POST">
       <img class="mb-4" src="../static/css/DreamFloraLogo.png" alt="" width="175" height="175">
-        <h1 class="h3 mb-3 font-weight-normal"><div class = "fnt">Dream Flora</div></h1>
+        <h1 class="h3 mb-3 font-weight-normal">Dream Flora</h1>
       <label for="inputUsername" class="sr-only">Username</label>
       <input type="text" id="inputUsername" class="form-control" placeholder="Username" name="username" required autofocus>
       <label for="inputPassword" class="sr-only">Password</label>
