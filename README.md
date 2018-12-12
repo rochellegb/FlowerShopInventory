@@ -9,7 +9,7 @@ https://github.com/rochellegb/FlowerShopInventory
 5.  Visit the website on python localhost http://127.0.0.1:5000/
 6. (To log into inventory page, use the username ‘admin’ and password ‘admin’.)
 
-If 'A' does not work, follow the steps in 'B'.
+If 'A' does not work, follow the steps in 'B' but still import the database.
 
 ### B. Using Command Prompt:
 1.	From the ‘FlowerShopInventory’ folder, extract the zipped folder ‘FlowerInventory’ to the 'PycharmProjects' folder.
