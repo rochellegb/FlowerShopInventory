@@ -9,6 +9,7 @@ https://github.com/rochellegb/FlowerShopInventoryhttps://github.com/baluyotraf/A
 
 Using Command Prompt:
 1.  Run Command Prompt.
+2.  Go to the virtual environment by commanding PycharmProjects\FlowerInventory\venv\Scripts\activate
 2.  Change Directory to the PycharmProjects\FlowerShopInventory
 3.  Type "python app.py" then Enter
 4.  Visit the website on python localhost http://127.0.0.1:5000/
