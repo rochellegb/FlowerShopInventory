@@ -1,6 +1,6 @@
 #   Online Technology Project – Team B
 ##  Dream Flora Inventory System
-### Installation Instructions
+### A. Installation Instructions:
 1.	Download the FlowerShopInventory repository by going to the git link: 
 https://github.com/rochellegb/FlowerShopInventory
 2.	Place the cloned folder under your Users directory “PycharmProjects”, for the Backend folder, import the database SQL text files using MySQL Workbench.
@@ -9,7 +9,9 @@ https://github.com/rochellegb/FlowerShopInventory
 5.  Visit the website on python localhost http://127.0.0.1:5000/
 (To log into inventory page, use the username ‘admin’ and password ‘admin’.)
 
-### Using Command Prompt:
+If 'A' does not work, follow the steps in 'B'.
+
+### B. Using Command Prompt:
 1.	From the ‘FlowerShopInventory’ folder, extract the zip file ‘FlowerInventory’ to the 'PycharmProjects' folder
 2.	Run Command Prompt.
 3.	Go to the virtual environment by commanding PycharmProjects\FlowerShopInventory\venv\Scripts\activate
