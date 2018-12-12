@@ -12,7 +12,7 @@ https://github.com/rochellegb/FlowerShopInventory
 If 'A' does not work, follow the steps in 'B'.
 
 ### B. Using Command Prompt:
-1.	From the ‘FlowerShopInventory’ folder, extract the zip file ‘FlowerInventory’ to the 'PycharmProjects' folder
+1.	From the ‘FlowerShopInventory’ folder, extract the zipped folder ‘FlowerInventory’ to the 'PycharmProjects' folder.
 2.	Run Command Prompt.
 3.	Go to the virtual environment by commanding PycharmProjects\FlowerShopInventory\venv\Scripts\activate
 4.	Change Directory to the PycharmProjects\FlowerShopInventory
