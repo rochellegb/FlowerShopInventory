@@ -7,10 +7,13 @@ https://github.com/rochellegb/FlowerShopInventory
 3.  Install all the dependencies included in the requirements.txt file
 4.	Open the FlowerShopInventory Project in Pycharm then run pyhton file app.py 
 5.  Visit the website on python localhost http://127.0.0.1:5000/
+7.	To log into inventory page, use the username ‘admin’ and password ‘admin’. 
 
 Using Command Prompt:
-1.  Run Command Prompt.
-2.  Go to the virtual environment by commanding PycharmProjects\FlowerShopInventory\venv\Scripts\activate
-2.  Change Directory to the PycharmProjects\FlowerShopInventory
-3.  Type "python app.py" then Enter
-4.  Visit the website on python localhost http://127.0.0.1:5000/
+1.	From the ‘FlowerShopInventory’ folder, extract the zip file ‘FlowerInventory’ to the 'PycharmProjects' folder
+2.	Run Command Prompt.
+3.	Go to the virtual environment by commanding PycharmProjects\FlowerShopInventory\venv\Scripts\activate
+4.	Change Directory to the PycharmProjects\FlowerShopInventory
+5.	Type "python app.py" then Enter
+6.	Visit the website on python localhost http://127.0.0.1:5000/
+7.	To log into inventory page, use the username ‘admin’ and password ‘admin’. 
