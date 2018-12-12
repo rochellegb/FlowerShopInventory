@@ -1,5 +1,5 @@
-# FlowerShopInventory
-## Online Technology Project – Team B: Dream Flora Inventory System
+#   Online Technology Project – Team B
+##  Dream Flora Inventory System
 ### Installation Instructions
 1.	Download the FlowerShopInventory repository by going to the git link: 
 https://github.com/rochellegb/FlowerShopInventoryhttps://github.com/baluyotraf/AdU_Online_Tech.git
